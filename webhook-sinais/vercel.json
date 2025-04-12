@@ -1,0 +1,10 @@
+
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/receberSinal.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/receberSinal", "dest": "api/receberSinal.js" }
+  ]
+}
